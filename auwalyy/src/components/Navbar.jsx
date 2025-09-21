@@ -21,7 +21,7 @@ const Navbar = () => {
       <a
         key={index}
         href={item.path}
-        className="hover:text-[#3B82F6] transition"
+        className="hover:text-emerald-500 transition"
       >
         {item.name}
       </a>
@@ -38,12 +38,12 @@ const Navbar = () => {
 
   {/* Mobile Nav */}
   {isOpen && (
-    <div className="absolute top-16 left-0 w-full bg-[#1E293B] flex flex-col items-center md:hidden py-4">
+    <div className="absolute top-16 left-0 w-full bg-emerald-500 flex flex-col items-center md:hidden py-4">
       {navLinks.map((item, index) => (
         <a
           key={index}
           href={item.path}
-          className="py-2 hover:text-[#3B82F6] transition"
+          className="py-2 hover:text-emerald-600 transition"
           onClick={() => setIsOpen(false)}
         >
           {item.name}

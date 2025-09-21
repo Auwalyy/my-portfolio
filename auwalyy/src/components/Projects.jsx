@@ -6,26 +6,31 @@ const Projects = () => {
       title: "AI Resume Analyzer",
       description:
         "An AI-powered tool that analyzes resumes against job descriptions to help job seekers improve their chances.",
+      link: "https://ai-resume-analyzer-main-kappa.vercel.app/auth?next=/",
     },
     {
       title: "Food Delivery Website",
       description:
         "A full-stack web application for ordering and delivering food, with real-time tracking and vendor dashboards.",
+      link: "https://grocery-delivery-website-three.vercel.app/",
     },
     {
       title: "Netflix Clone",
       description:
         "A responsive streaming platform clone with movie browsing, trailers, and modern UI design.",
+      link: "https://netflix-clone-neon-seven.vercel.app/",
     },
     {
       title: "YouTube Clone",
       description:
         "A video streaming app with search, recommendations, and player functionality.",
+      link: "https://youtube-clone-gvw26b42u-auwalyys-projects.vercel.app/",
     },
     {
-      title: "Web Services Landing Pages",
+      title: "WEB SaSS Landing",
       description:
-        "Multiple landing pages for web services showcasing responsive design, animations, and SEO-friendly structure.",
+        "A SaSS for my Web Services",
+      link: "https://enourmours-project.vercel.app/", 
     },
   ];
 
@@ -47,7 +52,9 @@ const Projects = () => {
               <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <a
-                href="#"
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-emerald-400 font-medium hover:underline"
               >
                 View Project →
