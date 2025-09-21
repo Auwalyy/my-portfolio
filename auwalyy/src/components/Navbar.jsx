@@ -38,18 +38,7 @@ const Navbar = () => {
 
   {/* Mobile Nav */}
   {isOpen && (
-    <div className="absolute top-16 left-0 w-full bg-emerald-500 flex flex-col items-center md:hidden py-4">
-      {navLinks.map((item, index) => (
-        <a
-          key={index}
-          href={item.path}
-          className="py-2 hover:text-emerald-600 transition"
-          onClick={() => setIsOpen(false)}
-        >
-          {item.name}
-        </a>
-      ))}
-    </div>
+ <div></div>
   )}
 </header>
 
