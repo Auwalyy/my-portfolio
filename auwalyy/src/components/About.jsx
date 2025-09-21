@@ -13,7 +13,7 @@ const About = () => {
         </h1>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
           A passionate <span className="text-emerald-400">Frontend Developer</span> 
-          who loves building modern, responsive, and user-friendly applications 
+          with more than 1 year+ of experience, who loves building modern, responsive, and user-friendly applications 
           with the latest technologies.
         </p>
       </div>
